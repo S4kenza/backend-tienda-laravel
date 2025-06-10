@@ -59,3 +59,30 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Descripcion del Proyecto
+
+Una proyecto en el que se une Backend y Frontend de una tienda virtual en la que los usuarios dependiendo de su rol pueden realizar ciertas acciones.
+Solo el rol de admin puede administrar los productos y realizar un CRUD.
+Con el rol de cliente se puede acceder a la pagina para observar el catalogo de productos y sus detalles.
+
+## Tecnologias Utilizadas
+
+Laravel, Composer, Xampp, Node.js.
+
+## Pasos basicos para clonar y ejecutar el sistema
+
+Es necesario para ejecutar el sistema tener instalado Xampp u otra base de datos tipo MySql para poder agregar a la base de datos y el servidor debe estar levantado.
+Se recomienda tener instaladas las tecnologias mencionadas en el paso anterior.
+Puedes clonar un repositorio de GitHub.com en el equipo local o en un codespace, para que sea más fácil corregir conflictos de combinación, agregar o quitar archivos e insertar confirmaciones más grandes.
+En GitHub, navegue hasta la página principal del repositorio.
+
+Encima de la lista de archivos, haz clic en <> Código.
+Copia la dirección URL del repositorio.
+
+Para clonar el repositorio con HTTPS, en "HTTPS", haz clic en el icono del tablero.
+
+Para clonar el repositorio mediante una clave SSH, incluido un certificado emitido por la entidad de certificación SSH de la organización, haz clic en SSH y luego en el icono del tabelero .
+
+Para clonar un repositorio mediante GitHub CLI, haz clic en GitHub CLI y, después, en el icono de Pegar. 
+
