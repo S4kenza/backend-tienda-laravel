@@ -19,6 +19,12 @@ class ProductoController extends Controller
     /**
      * Store a newly created resource in storage.
      */
+
+    public function categoria()
+    {
+        $categorias = \App\Models\Categoria::all();
+        return response()->json($categorias, 200);
+    }
     public function store(Request $request)
     {
         $validated = $request->validate([
