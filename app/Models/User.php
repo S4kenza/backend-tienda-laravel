@@ -36,7 +36,7 @@ class User extends Authenticatable
     ];
 
   public function carrito(){
-        return $this->hasOne(Carritos::class, 'user_id');
+        return $this->hasOne(Carrito::class, 'user_id');
     }
 
     public function pedido(){

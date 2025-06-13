@@ -13,7 +13,7 @@ class DireccionController extends Controller
         return response()->json($direcciones, 200);
     }
 
-public function store(Request $request, $id)
+public function store(Request $request)
 {
     $validated = $request->validate([
         'direccion' => 'required|string|max:255',
