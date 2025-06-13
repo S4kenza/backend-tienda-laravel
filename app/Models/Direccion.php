@@ -11,14 +11,13 @@ class Direccion extends Model
         'user_id',
         'direccion',
         'ciudad',
-        'estado',
-        'codigo_postal',
-        'pais',
+        'provincia',
+        'telefono',
     ];
 
     public function user()
     {
-        return $this->belongsTo(User::class, 'user_id');
+        return $this->belongsTo(User::class);
     }
 
     public function pedidos()
